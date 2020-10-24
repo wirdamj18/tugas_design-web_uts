@@ -1,0 +1,112 @@
+
+/* Css resets */
+* {
+            padding:0;
+            margin:0;
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            -box-sizing:border-box;
+}
+ul {
+            list-style: none;
+}
+img {
+            max-width: auto;
+            height: auto;
+}
+body {
+            font-family: 'Georgia', serif;
+            background-color: #FFFF66;
+           
+}
+h1,h2,h2,h3,h4,h5
+h1 {
+    color: blue;
+}
+
+h1 {
+    color: color;
+}
+            margin:0.3em 0 0.5em 0;
+}
+/* End css resets */
+
+/* Css default */
+@media (min-width:768px){
+            .container {
+                        width:1000px;
+            }
+}
+.container {
+            margin:3vh auto;
+            padding:10px;
+}
+.page-title {
+            margin:10px auto;
+            text-align: center;
+            color:green;
+            font-size: 17px;
+}
+.page-title h1 {
+            font-size:10px;
+            color:green;
+            line-height: 1;
+}
+.page-title a{
+            color:#ff7777;
+            text-decoration: none;
+}
+.page-title a:hover{
+            text-decoration: underline;
+            color: grey;
+}
+/* End css default */
+
+.menu, .menu >ul {
+            position: relative;
+            background-color: #800;
+            height: 50px;
+}
+.menu >ul >li {
+            display: inline-block;
+            padding:15.5px 0;
+            overflow: hidden;
+}
+.menu >ul >li >a {
+            padding:17px;
+            color:#eee;
+            text-decoration: none;
+}
+.menu >ul >li:hover {
+            background-color: #ff00ff;
+            -webkit-transition:ease 0.3s;
+}
+.menu .menu-detail {
+            height: 0;
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+}
+.menu >ul >li:hover >div.menu-detail {
+            opacity: 1;
+            height: 300000px;
+            width:100%;
+            visibility: visible;
+            top:50px;
+            right:0;
+            left: 0;
+            z-index: 99;
+            background-color: #FFFF66;
+            color:#black;
+            -webkit-transition:height 1s;
+            -moz-transition:height 1s;
+            transition:height 1s;
+            border-top:3px solid #00cc00;
+            overflow: hidden;
+}
+.footer{
+      font-family: 'libre franklin' sans-serif;
+      background-color: grey;
+      color: white;
+
+}
